@@ -12,7 +12,7 @@ while True:
     elif hiragana_2 in used_hiragana:
         print('この単語は既に使われています。あなたの負けです。')
         break
-    elif hiragana_2[-1] == "ん":
+    elif hiragana_2[-1] == 'ん':
         print('これは[ん]で終わる単語です。あなたの負けです。')
         break
     else:
